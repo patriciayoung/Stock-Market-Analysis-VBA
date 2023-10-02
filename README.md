@@ -7,3 +7,6 @@ The script that I wrote does work but it is not efficient. There are 2 sets of v
 I did this in 2 sets because the code I wrote was not running in the 3-5 minutes the instructions said but was taking about 45 mins per sheet. At the point I was at I was not rewriting this, but figured I could split it into parts. 
 
 Hopefully this is a little clearer.
+
+
+There are a few word docs in my repo; there is one that has all the screenshots of the final assignment after my code finished running. Another of the scripted vba code itself (again, there are 2 scripts).
