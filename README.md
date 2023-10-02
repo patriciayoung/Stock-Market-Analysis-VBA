@@ -1,4 +1,9 @@
 # stock-analysis
 Module 2 challenge 
 
-There are 2 sets of vba scripts that I ran. This code is not efficient but it did work. The first set was to obtain  the columns and whatnot then the open and close stock prices along with the tickers. the second set of scripts combines things into one sheet to generate the greatest and lowest % totals.
+
+The script that I wrote does work but it is not efficient. There are 2 sets of vba scripts that I wrote and ran for this assignment. The first is for the first part of the assignment and basically gets all the new columns, tickers, conditionals, and values into those columns, it also runs through the sheets. The second set of vba code combines/compiles the data all into a new sheet (you will see a screenshot of the new sheet as well) and then calculates the last pieces of the assignment. I believe it was the greatest and lowest % with their tickers as well.
+
+I did this in 2 sets because the code I wrote was not running in the 3-5 minutes the instructions said but was taking about 45 mins per sheet. At the point I was at I was not rewriting this, but figured I could split it into parts. 
+
+Hopefully this is a little clearer.
