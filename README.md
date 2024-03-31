@@ -1,12 +1,31 @@
-# stock-analysis
-Module 2 challenge 
+# VBA Challenge - Stock Market Analysis
 
+# Overview:
+This project is dedicated to enhancing programming and Excel proficiency by employing VBA scripting to analyze stock market data spanning multiple years. The aim is to automate the analysis process, enabling the extraction of crucial metrics about stock performance directly within Excel. Through this analysis, insights into yearly stock performance, including changes, percentage changes, and total stock volumes, are derived.
 
-The script that I wrote does work but it is not efficient. There are 2 sets of vba scripts that I wrote and ran for this assignment. The first is for the first part of the assignment and basically gets all the new columns, tickers, conditionals, and values into those columns, it also runs through the sheets. The second set of vba code combines/compiles the data all into a new sheet (you will see a screenshot of the new sheet as well) and then calculates the last pieces of the assignment. I believe it was the greatest and lowest % with their tickers as well.
+# Objective:
+The primary goal of this VBA Challenge is to develop a robust VBA script capable of traversing through each year of stock data to generate essential stock performance indicators. Furthermore, the script identifies stocks with the highest percentage increase, greatest percentage decrease, and greatest total volume, facilitating informed investment decisions.
 
-I did this in 2 sets because the code I wrote was not running in the 3-5 minutes the instructions said but was taking about 45 mins per sheet. At the point I was at I was not rewriting this, but figured I could split it into parts. 
+# Methodology:
+# Data Retrieval:
 
-Hopefully this is a little clearer.
+Ticker Symbol: Extracted and stored from each row of the dataset.
+Volume of Stock: Calculate the total stock volume for each ticker.
+Open and Close Prices: Identified to compute yearly changes and percentage changes.
 
+Analysis Outputs:
+Yearly Change: Computed from the opening price at the beginning of the year to the closing price at the end of that year.
+Percentage Change: Derived from the yearly change relative to the opening price.
+Total Stock Volume: Aggregated for each stock to evaluate trading activity.
 
-There are a few word docs in my repo; there is one that has all the screenshots of the final assignment after my code finished running. Another of the scripted vba code itself (again, there are 2 scripts).
+Additional Functionality:
+Greatest % Increase, Decrease, and Total Volume: The script identifies and outputs these key metrics across all analyzed stocks.
+Multi-Year Compatibility: Adjusted the VBA script to function across every worksheet, facilitating comprehensive analysis with a single script execution.
+
+# Key Findings:
+The analysis successfully extracted and computed the necessary metrics for assessing stock performance.
+Conditional formatting was applied to visually differentiate between positive and negative yearly changes, improving result readability.
+
+# Conclusion:
+This project exemplifies the effectiveness of VBA scripting in automating data analysis within Excel, leading to significant reductions in manual effort and error potential. Despite challenges in ensuring metric accuracy, the project provided valuable experience in applying programming skills to practical financial data analysis.
+
